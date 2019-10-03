@@ -1,0 +1,29 @@
+<div class="detailswrap">
+  <div class="container">
+      <div class="card onePost">
+          <h5 class="card-header titlepost">
+            {{postprevious.title.split(" ")[0]}}
+          </h5>
+          <div class="card-body">
+            <h5 class="card-title">{{postprevious.title}}</h5>
+            <p class="card-text">{{postprevious.body}}</p>
+          </div>
+        </div>
+        <hr>
+        <h4>Post comments</h4>
+    <ul>
+        <li *ngFor="let det of details">
+          <div class="detailsContent">
+            <div class="circleLogo inliner">{{det.name[0] + det.name[1]}}</div><div class="inliner titletxt"><p> {{det.name}}</p></div>
+            <div class="inliner editbtnwrap"><button type="button" class="btn btn-light editBtn">EDIT</button>
+            </div>
+            <p class="emailtxt">{{det.email}}</p>
+            <p>{{det.body}}</p>
+          </div>
+        </li>
+    </ul>
+
+    <button type="button" class="btn addCmtButton">Add Comment</button>
+
+  </div>
+</div>

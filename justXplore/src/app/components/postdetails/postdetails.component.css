@@ -1,0 +1,77 @@
+ul{
+  list-style: none;
+}
+.circleLogo{
+  /* background-color: yellowgreen; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  /* line-height: 500px; */
+  text-align: center;
+  background: rgba(180, 163, 8, 0.514);
+  padding-top: 8px;
+  
+}
+.emailtxt{
+  color: rgba(85, 85, 85, 0.562);
+  font-style: italic;
+}
+li:nth-child(odd) {
+  background-color: rgba(216, 216, 216, 0.308);
+}
+li:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+}
+.detailsContent{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+.inliner{
+  display: inline-block;
+}
+.titletxt{
+  padding-left: 20px;
+}
+.editBtn{
+  color: rgb(180, 163, 8);
+}
+.editbtnwrap{
+  /* background-color: red; */
+  float: right;
+  font-weight: bold;
+}
+.addCmtButton{
+  background-color: rgb(218, 167, 3);
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  font-family: 'Nanum Gothic', sans-serif;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+
+
+.titleposts{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+}
+.postswrap{
+  margin: 30px;
+}
+.titlepost{
+  vertical-align: center;
+  padding-top: 0;
+  height: 200px;
+  font-size: 150px;
+  color: rgb(85, 85, 85);
+  opacity: 0.8;
+  text-align: center;
+}
+.onePost{
+  margin: 50px;
+}

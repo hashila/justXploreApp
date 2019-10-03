@@ -1,0 +1,22 @@
+ul{
+  list-style:none;
+}
+.titleposts{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.postswrap{
+  margin: 30px;
+}
+.titlepost{
+  vertical-align: center;
+  padding-top: 0;
+  height: 200px;
+  font-size: 150px;
+  color: rgba(255, 174, 0, 0.568);
+  opacity: 0.8;
+  text-align: center;
+}
+.onePost{
+  margin: 50px;
+}

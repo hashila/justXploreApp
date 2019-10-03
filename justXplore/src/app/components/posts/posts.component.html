@@ -1,0 +1,20 @@
+<div class="postswrap">
+  <div class="titleposts">
+    <h3>Posts</h3>
+  </div>
+  <div class="postlist">
+    <ul>
+        <li *ngFor="let post of postList">
+            <div class="card onePost" (click)="clickPost(post.id, post)">
+                <h5 class="card-header titlepost">
+                  {{post.title[0] + post.title[1]}}
+                </h5>
+                <div class="card-body">
+                  <h5 class="card-title">{{post.title}}</h5>
+                  <p class="card-text">{{post.body}}</p>
+                </div>
+              </div>
+          </li>
+    </ul>
+  </div>
+</div>
